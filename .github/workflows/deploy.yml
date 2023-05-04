@@ -90,6 +90,7 @@ jobs:
         with:
           command: d1 create wildebeest-${{ env.NAME_SUFFIX }} --experimental
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          wranglerVersion: 'd1'
         continue-on-error: true
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
