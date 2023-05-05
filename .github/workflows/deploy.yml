@@ -90,7 +90,7 @@ jobs:
         with:
           command: d1 create wildebeest-${{ env.NAME_SUFFIX }} --experimental
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          wranglerVersion: '0.0.0-a879700e'
+          wranglerVersion: '0.0.0-d66eb10e'
         continue-on-error: true
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -110,7 +110,8 @@ jobs:
       - name: migrate D1 database
         uses: cloudflare/wrangler-action@2.0.0
         with:
-          command: d1 migrations apply wildebeest-${{ env.NAME_SUFFIX }}
+          command: d1 migrations apply wildebeest-${{ env.NAME_SUFFIX }} --experimental
+          wranglerVersion: '0.0.0-d66eb10e'
           apiToken: ${{ secrets.CF_API_TOKEN }}
           preCommands: |
             echo "*** pre commands ***"
