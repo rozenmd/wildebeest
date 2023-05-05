@@ -4410,7 +4410,7 @@ word-wrap@^1.2.3:
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-wrangler@d1:
+wrangler@^0.0.0-a879700e:
   version "0.0.0-a879700e"
   resolved "https://registry.yarnpkg.com/wrangler/-/wrangler-0.0.0-a879700e.tgz#b533a816b212b9cc15a6174e7c119f7be2e678a0"
   integrity sha512-YWgboadt80DBh7DMMnuiPIi/0HsRhPWRH+YKiR4sxOjD4F7FunVAvUyyNTSzmG/D7UuIjlC6mH8ia7PH/kx0yw==
