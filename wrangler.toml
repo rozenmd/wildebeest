@@ -12,4 +12,4 @@ node_compat = true
 binding = "DATABASE"
 database_name = "wildebeest"
 # Replace this database_id with the id of the database created by `yarn deploy:init`.
-database_id = "e851b400-48a1-4c95-b8ef-56e1deabd8f6"
+database_id = "5d782c7f-e75d-470c-913b-69cd9f86dd27"
